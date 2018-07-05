@@ -1,0 +1,35 @@
+.red-text {
+  color: #700;
+}
+
+.form-section {
+  margin-top:2.5rem;
+}
+
+
+
+/*
+ * form section animations
+ *
+*/
+
+.modal-body {
+  overflow: hidden;
+}
+
+.form-section-enter {
+  opacity: 0;
+}
+.form-section-enter.form-section-enter-active {
+  opacity: 1;
+  transition: all 120ms ease-in-out;
+}
+.form-section-leave {
+  opacity: .7;
+  position: absolute;
+  top:0;
+}
+.form-section-leave.form-section-leave-active {
+  opacity: 0;
+  transition: all 120ms ease-in-out;
+}
